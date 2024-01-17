@@ -1,3 +1,6 @@
+
+# FINDING THE MINIMUM AND MAXIMUM ELEMENT IN THE ARRAY
+
 def getMin(arr):
     minElement = arr[0]
     for i in range(len(arr)):

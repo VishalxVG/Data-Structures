@@ -7,6 +7,7 @@
 # There are two types of Binary Search Algorithm
 
 # 1. Iterative Binary Search Algorithm
+
 def Iterative_BSearch(arr , low , high , val):
     while low <= high :
         
@@ -52,4 +53,11 @@ if __name__ == "__main__":
 
     else:
         print("The value is at position" , result)
-        print("THE VALUE AT POSIITON :",result1)                
+        print("THE VALUE AT POSIITON :",result1)     
+
+
+# COMPLEXITY
+        # The time complexity of binary search algorithm is O(log n).
+        # BEST CASE = O(1)
+        # WORST CASE = O(logN)
+        # AVERAGE CASE = O(Log N)

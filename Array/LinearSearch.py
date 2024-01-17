@@ -17,3 +17,10 @@ if __name__ == "__main__":
         print("The number doesnot exist")
     else:
         print("The number is at position :",result)
+
+# COMPLEXITY ANALYSIS 
+        # The time complexity of the linear search algorithm is O(N). 
+        # Best case : O(1) , if element is found in first place
+        # Worst case: O(N) , element is found in the last place
+        # Avg case  : o(N) 
+        

@@ -31,6 +31,7 @@ def FindLargest_3(arr):
     # Time Complexity = O(N)
 
     # Another way to sort it in even more less time is by sorting the array and printing the last three elements
+    
 
 def findMax_3_Elements(arr):
         n = len(arr)
@@ -48,6 +49,8 @@ def findMax_3_Elements(arr):
                     check = arr[n - i]
                 else:
                     break    
+
+    # TIME COMPLEXITY = O(N LogN)            
 
 
 
